@@ -1,7 +1,7 @@
 Package: openEO.R.Backend
 Title: Reference backend implementation for openEO conformant backend with a local filesystem
 Version: 0.2.2
-Authors@R: person("Florian", "Lahn", email = "florian.lahn@uni-muenster.de", role = c("aut", "cre"))
+Authors@R: c(person("Florian", "Lahn", email = "florian.lahn@uni-muenster.de", role = c("aut", "cre")), person("Pramit", "Ghosh", email = "pramitghosh@uni-muenster.de", role = "ctb", comment = c(ORCID = "0000-0002-1852-5951")))
 Description: The package contains a backend solution in compliance with the openEO API. In this demonstration 
     the file backend solution is the local file system containing some raster data collections.
 Depends: 
@@ -44,6 +44,7 @@ Collate:
     'MapServerMap-class.R'
     'MapServerWeb-class.R'
     'Product-class.R'
+    'R2Generic-class.R'
     'data.R'
     'processes.R'
     'Server-class.R'
@@ -57,4 +58,5 @@ Collate:
     'api_job.R'
     'api_data.R'
     'api.R'
+    'prepare_UDF.R'
     'serializer_proxy.R'
